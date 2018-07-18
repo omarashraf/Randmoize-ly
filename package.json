@@ -1,0 +1,24 @@
+{
+  "name": "randmoize-ly-server",
+  "version": "1.0.0",
+  "description": "A randomizing app for lists and draws",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarashraf/Randmoize-ly-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omarashraf/Randmoize-ly-server/issues"
+  },
+  "homepage": "https://github.com/omarashraf/Randmoize-ly-server#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.4"
+  }
+}
