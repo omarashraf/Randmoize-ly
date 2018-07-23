@@ -18,7 +18,10 @@ mongoose.connection.once('open', () => {
 app.get('/', (req, res) => res.send('Hello World!'));
 
 // list randomizer endpoint
-app.get("/randomize/:list", randomManager.randomList)
+app.get("/randomizeList/:list", randomManager.randomList);
+
+// knock-out draw formulation
+app.get("/randomizeDraw/:list", randomManager.randomDraw);
 
 // port setting for app to run
 app.listen(env.parsed["PORT"], () => console.log(`Example app listening on port ${env.parsed["PORT"]}!`));
